@@ -4,6 +4,7 @@ import routes from './constants/routes';
 import App from './containers/App';
 import HomePage from './containers/HomePage';
 import CounterPage from './containers/CounterPage';
+// import QrScannerPage from './containers/QrScannerPage';
 
 export default () => (
   <App>
@@ -13,3 +14,5 @@ export default () => (
     </Switch>
   </App>
 );
+
+// <Route path={routes.QRSCANNER} component={QrScannerPage} />
